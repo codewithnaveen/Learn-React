@@ -1,12 +1,12 @@
 import React from 'react';
 
 import './App.css';
-import EventBind from '../components/EventBind';
+import ParentComp from '../components/ParentComp';
 
 function App() {
   return (
     <div className="App">
-     <EventBind />
+     <ParentComp />
     </div>
   );
 }
