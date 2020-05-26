@@ -5,11 +5,13 @@ import ParentComp from '../components/ParentComp';
 import RefsDemo from '../components/RefsDemo';
 import FocusInput from '../components/FocusInput';
 import FRParent from '../components/FRParent';
+import FormBasic from '../components/FormBasic';
+import FormNew from '../components/FormNew';
 
 function App() {
   return (
     <div className="App">
-     <FRParent />
+     <FormNew />
     </div>
   );
 }

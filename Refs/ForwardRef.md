@@ -31,7 +31,7 @@ class FRParent extends React.Component{
 export default FRParent
 ```
 
-Child Component - ***FRInput.js**
+Child Component - ***FRInput.js***
 ```
 import React from 'react';
 
