@@ -10,11 +10,12 @@ import FormNew from '../components/FormNew';
 import StyleSheet from '../components/Stylesheet';
 import Inline from '../components/Inline';
 import CssModule from '../components/CssModule';
+import BootstrapDemo from '../components/BootstrapDemo';
 
 function App() {
   return (
     <div className="App">
-     <CssModule />
+     <BootstrapDemo />
     </div>
   );
 }

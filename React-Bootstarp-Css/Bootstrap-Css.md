@@ -1,5 +1,5 @@
 ## Introduction
-Learn how to include React Bootstrap in your project
+Learn how to include React Bootstrap and Css in your project
 
 
 ## Installation
@@ -14,9 +14,8 @@ import Button from 'react-bootstrap/Button';
 import { Button } from 'react-bootstrap';
 ```
 
-### Css
 
-Add this to index.html
+ **Add this to index.html**
 
 ```
 <link
@@ -26,6 +25,24 @@ Add this to index.html
   crossorigin="anonymous"
 />
 ```
+For Example : 
+
+
+***BootstrapDemo.js***
+```
+import React from 'react';
+import {Button} from 'react-bootstrap';
+ function BootstrapDemo(){
+     return(
+        <div>
+            <Button>Bootstrap button</Button>
+        </div>
+     )
+ }
+ export default BootstrapDemo;
+ ```
+---
+## Css
 
 ### Regular Stylesheet
 
