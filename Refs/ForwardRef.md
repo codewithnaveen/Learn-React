@@ -4,7 +4,8 @@ Here the Ref is forwared to the native input element
 
 Parent Component - ***FRParent.js***
 
-```import React from 'react';
+```javascript
+import React from 'react';
 import FRInput from '../components/FRInput';
 
 class FRParent extends React.Component{
